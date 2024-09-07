@@ -1,5 +1,5 @@
 ﻿namespace CSharpIntoPython;
 
-public class Class1
+public static class Class1
 {
 }
