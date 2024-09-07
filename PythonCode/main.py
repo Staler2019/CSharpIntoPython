@@ -24,3 +24,9 @@ from CSharpIntoPython import Class1
 
 hello_world = Class1.HelloWorld
 write_to_docx = Class1.WriteToDocx
+
+
+filePath = os.path.join(os.getcwd(), "Doc1.docx")
+
+print(hello_world())
+write_to_docx(filePath, "Hello from Python")
